@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-gray{
+    background-color: gray;
+}
+.red-text{
+    color: red;
+}
+#art{
+    border: 2px solid blue;
+}
