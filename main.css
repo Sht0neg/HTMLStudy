@@ -1,0 +1,67 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+body{
+    background: rgb(13, 17, 23);
+    margin: 0;
+}
+.color{
+    background-color: rgb(115, 81, 132);
+}
+.border{
+    background-color: violet;
+    border: #162a48 5px solid;
+    border-color: aqua;
+    border-bottom: 8px double slateblue;
+}
+.border1{
+    border: 2px solid transparent;
+}
+.padding{
+
+    background-color: darkmagenta;
+    margin: 50px;
+    padding: 10px;
+}
+button{
+    border: none;
+    background-color: darkslateblue;
+    color: pink;
+    padding: 15px 50px;
+
+    border-radius: 10px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkorchid;
+}
+.image{
+    background: url("taskt_img.png");
+    background-size: cover;
+}
+.gradient{
+    background: linear-gradient(45deg, rgb(128 0 0), rgb(75 0 130));
+}
+.size{
+    background-color: crimson;
+    width: 100%;
+    /*width: 100vw;*/
+}
+.parent{
+    width: 50%;
+}
+.child{
+    background-color: darkred;
+    width: 50%;
+}
+.block1{
+    background-color: bisque;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.block2{
+    background-color: mediumvioletred;
+}
