@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+.static{
+    background-color: palevioletred;
+    position: static;
+}
+.relative{
+    position: relative;
+    background-color: aqua;
+    left: 50px;
+}
+.absolute{
+    position: absolute;
+    background-color: orange;
+    top: calc(50% - 50px);
+    right: calc(50% - 50px);
+}
+.fixed{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: greenyellow
+}
+body{
+    height: 200vh;
+}

@@ -65,3 +65,6 @@ button{
 .block2{
     background-color: mediumvioletred;
 }
+.shadow{
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+}
