@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(225, 237, 230);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-left: 400px;
+}
+.logo_text{
+    font-size: 23px;
+    color: green;
+    font-weight: bold;
+    padding-right: 500px;
+    padding-left: 10px;
+}
+.logo_punkts{
+    font-size: 23px;
+    padding-right: 30px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1{
+    font-size: 60px;
+    width: 540px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 650px;
+}
+.mainb{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    font-size: 25px;
+    width: 250px;
+    height: 70px;
+    border: 1px green solid;
+}
+section{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.podtit{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.podtex{
+    font-size: 35px;
+    padding-right: 510px;
+}
+.countbut{
+    font-size: 22px;
+    background-color: rgb(225, 237, 230);
+    border-radius: 20px;
+    padding: 17px;
+}
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 44px;
+}
+.cart{
+    background-color: rgb(225, 237, 230);
+    padding: 20px;
+}
+.podpic{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+.namepic{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+.matpic{
+    font-size: 22px;
+    margin: 0;
+    margin-top: 10px;
+}
+.price{
+    font-size: 25px;
+    color: green;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.podtv{
+    height: 60px;
+    width: 310px;
+    background-color: rgb(225, 237, 230);
+    color: green;
+    border: 1px green solid;
+    font-size: 20px;
+}
+.command{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.teamd{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 40px;
+    font-weight: 150;
+    margin-left: 30px;
+}
+.teamt{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.teamim{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    gap: 40px;
+    position: relative;
+    right: 138px;
+}
+footer{
+    height: 168px;
+    background-color: rgb(225, 237, 230);
+    margin-top: 50px;
+}
