@@ -1,0 +1,9 @@
+font-face{
+    font-family: "Coats";
+    src: url("Coats Italic.otf")
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Coats";
+}
