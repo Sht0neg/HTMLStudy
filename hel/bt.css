@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.btn-arrow{
+    position: relative;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    transition: 300ms;
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: crimson;
+    border-radius: 40px;
+    left: 0;
+}
+.circle_arrow{
+    transition: 300ms;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 18px;
+    height: 2px;
+    left: 6px;
+}
+.circle_arrow::before{
+    position: absolute;
+    content: "";
+    right: 1px;
+    top: -4px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+}
+.btn-arrow_text{
+    position: relative;
+    transition: 300ms;
+    color: black;
+    text-align: center;
+    z-index: 15;
+    margin-left: 40px;
+}
+.btn-arrow:hover .circle{
+    width: 100%;
+}
+.btn-arrow:hover .circle_arrow{
+    background: white;
+    transform: translate(1em, 0);
+}
+.btn-arrow:hover .btn-arrow_text{
+    color: white;
+}
