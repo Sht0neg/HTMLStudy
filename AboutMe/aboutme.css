@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 17, 23);
+    width: 100%;
+}
+header{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background: linear-gradient(0deg, rgba(13,17,23,1) 25%, rgba(0,120,212,1) 91%);
+    width: 100%;
+}
+main{
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+   justify-content: left;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 550px;
+}
+.perborder{
+    height: 400px;
+    width: 300px;
+}
+.bcolor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(315deg, rgb(13, 17, 23), rgb(0, 96, 240), rgb(13, 17, 23));
+    border-radius: 40px;
+}
+.person{
+    height: 350px;
+    width: 250px;
+    border-radius: 30px;
+}
+.f{
+    margin: 0;
+    color: rgb(195, 208, 229);
+    font-size: 30px;
+}
+.textme{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    gap: 30px;
+}
+.s{
+    margin: 0;
+    color: rgb(159, 177, 209);
+    font-size: 23px;
+}
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 550px;
+}
+.schoolb{
+    height: 200px;
+    width: 300px;
+}
+.school{
+    height: 180px;
+    width: 280px;
+    border-radius: 30px;
+}
+.sc{
+    color: rgb(159, 177, 209);
+    font-size: 23px;
+}
+.sec{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    gap: 30px;
+}
+.topr{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 300px;
+}
+.gapc{
+    gap: 20px;
+}
+.topc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    gap: 35px;
+}
+.gapr{
+    gap: 5px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.ct{
+    color: rgb(195, 208, 229);
+    font-size: 20px; 
+}
+.desc{
+    color: rgb(159, 177, 209);
+    font-size: 15px;
+}
+.git{
+    background: linear-gradient(to left top, #35d1af, #00bfca, #00a8e4, #008cf0, #0067e1, #2f52c5, #3b3ea9, #3e2a8d, #1b2a72, #052454, #091c35, #0d1117);
+    border-radius: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.gitt{
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    top: calc(50% - 15px);
+}
