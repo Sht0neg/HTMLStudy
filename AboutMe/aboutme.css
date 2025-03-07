@@ -12,6 +12,16 @@ p{
     font-weight: bold;
     letter-spacing: 3px;
 }
+h2{
+    font-family: "GOGOIA";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.f{
+    font-family: "GOGOIA";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -34,11 +44,12 @@ main{
     box-sizing: border-box;
     padding-left: 10%;
     padding-right: 10%;
-    gap: 550px;
+    gap: 250px;
 }
 .perborder{
     height: 400px;
     width: 300px;
+    margin-left: 20px;
 }
 .bcolor{
     display: flex;
@@ -59,11 +70,12 @@ main{
     font-size: 30px;
 }
 .textme{
+    position: relative;
     display: flex;
-    align-items: flex-start;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 130px;
 }
 .s{
     margin: 0;
@@ -80,17 +92,22 @@ section{
     gap: 550px;
 }
 .schoolb{
-    height: 200px;
-    width: 300px;
+    padding: 30px;
+    position: relative;
+    right: 11%;
 }
 .school{
-    height: 180px;
-    width: 280px;
+    height: 230px;
+    width: 320px;
     border-radius: 30px;
 }
 .sc{
     color: rgb(159, 177, 209);
     font-size: 23px;
+}
+.mgap{
+    position: relative;
+    gap: 320px;
 }
 .sec{
     display: flex;
@@ -103,7 +120,7 @@ section{
     display: flex;
     align-items: flex-start;
     justify-content: left;
-    gap: 300px;
+    gap: 50px;
 }
 .gapc{
     gap: 20px;
@@ -118,11 +135,12 @@ section{
 .gapr{
     gap: 5px;
     position: relative;
+    width: 350px;
 }
 .icon{
     position: relative;
-    top: 10px;
-    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -148,16 +166,18 @@ section{
 }
 .gitt{
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    left: 701px;
+    /*left: 301px;*/
     font-size: 30px;
     top: calc(50% - 50px);
 }
 .gi{
-    position: relative;
+    position: absolute;
     width: 130px;
     height: 70px;
-    left: 670px;
+    left: 350px;
     top: calc(50% - 35px);
 }
 .fre{
@@ -179,9 +199,9 @@ section{
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 .autrev{
     position: absolute;
@@ -209,4 +229,122 @@ section{
     width: 50px;
     height: 50px;
     
+}
+footer{
+    background: linear-gradient(180deg, rgba(13,17,23,1) 25%, rgba(0,120,212,1) 91%);
+    height: 200px;
+}
+.cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.revadd{
+    position: relative;
+    height: 300px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 150px;
+    flex-direction: column;
+    padding: 30px;
+}
+.revr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.colum{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.revc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.revtext{
+    height: 100px;
+    width: 300px;
+    color: rgb(159, 177, 209);
+    background-color: rgba(13,17,23,0.6);
+    border: solid 1px #052454;
+}
+.revauthor{
+    color: rgb(159, 177, 209);
+    background-color: rgba(13,17,23,0.6);
+    border: solid 1px #052454;
+    width: 350px;
+    height: 20px;
+}
+.aufile{
+    display: inline-block;
+    position: relative;
+}
+.filebtn{
+    display: inline-block;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #052454;
+    font-size: 15px;
+    line-height: 30px;
+    height: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    border: solid 1px #008cf0;
+    transition: 300ms;
+}
+.aufile input[type=file]{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.sendbtn{
+    position: absolute;
+    bottom: 20px;
+    height: 40px;
+    background-color: #091c35;
+    border: solid 1px #00a8e4;
+    cursor: pointer;
+    color: rgb(159, 177, 209);
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 300ms;
+}
+
+.sendbtn:hover{
+    background-color: #0e1c2e;
+    transform: scale(1.2, 1.2);
+}
+.sendbtn:active{
+    background-color: red;
+}
+.sendbtn:focus{
+    background-color: #182d48;
+}
+.filebtn:hover{
+    background-color: #0e1c2e;
+    transform: scale(1.2, 1.2);
+}
+.filebtn:focus{
+    background-color: #182d48;
 }

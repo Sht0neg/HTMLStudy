@@ -15,14 +15,14 @@
         </div>
         <div class="textme">
             <h2 class="f">Немного информации о себе</h2>
-            <p class="s">рапапа</p>
+            <p class="s">Меня зовут Петрыкин Артем. Мне почти 18 лет. Я начинающий  программист.  Занимаюсь программированием 4 года. 2 года занимался робототехникой. В свободное время люблю поиграть в компьютерные игры с друзьями или братьями: стратегии, аркады и песочницы. Перед сном посмотреть аниме. Ещё люблю путешествовать. Самое яркое, поездка на о. Сахалин. Дикая природа, кишащие рыбой реки и морские обитатели.</p>
         </div>
     </main>
-    <section>
+    <section class="mgap">
+        <p class="sc">Я учусь  в 11 классе, в гимназии 1 г.о. Балашиха. любимые школьные предметы: математика,  физика,  информатика, история. Этот год очень важен для меня и моих одноклассников, впереди сдача ЕГЭ.  Надеюсь мы все успешно сдадим экзамены и поступим в выбранные ВУЗы.</p>
         <div class="bcolor schoolb">
             <img class="school" src="school.jpg" alt="">
         </div>
-        <p class="sc">Я учусь в...</p>
     </section>
     <section class="sec">
         <p class="f">Параллельно учусь в Компьютерной Академии TOP</p>
@@ -104,5 +104,28 @@
             </div>
         </div>
     </section>
+    <section class="sec cen">
+        <p class="f">Добавление отзыва</p>
+        <div class="bcolor addrev">
+            <form class="revadd" action="" method="post">
+                <div class="revr">
+                    <div class="colum">
+                        <label class="f" for="reveiw">Напишите отзыв</label>
+                        <textarea class="revtext" type="text" name="reveiw" id="reveiw"></textarea>
+                    </div>
+                    <div class="revc">
+                        <label class="f" for="author">Автор отзыва</label>
+                        <input class="revauthor" type="text" name="author" id="author">
+                        <label class="f aufile" for="auicon">
+                            <input type="file" name="auicon" id="auicon">
+                            <p class="f filebtn">Загрузить аватарку</p>
+                        </label>
+                    </div>
+                </div>
+                <input class="sendbtn" type="button" value="Отправить отзыв">
+            </form>
+        </div>
+    </section>
+    <footer></footer>
 </body>
 </html>
