@@ -335,9 +335,6 @@ footer{
     background-color: #0e1c2e;
     transform: scale(1.2, 1.2);
 }
-.sendbtn:active{
-    background-color: red;
-}
 .sendbtn:focus{
     background-color: #182d48;
 }
