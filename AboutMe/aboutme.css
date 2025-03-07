@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'GOGOIA';
+	src: url('fonts/gogoia.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/gogoia.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/gogoia.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/gogoia.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/gogoia.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/gogoia.svg#gogoia') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+p{
+    font-family: "GOGOIA";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -103,10 +117,15 @@ section{
 }
 .gapr{
     gap: 5px;
+    position: relative;
 }
 .icon{
+    position: relative;
+    top: 10px;
+    bottom: 0;
     width: 100px;
     height: 100px;
+    border-radius: 10px;
 }
 .ct{
     color: rgb(195, 208, 229);
@@ -114,18 +133,80 @@ section{
 }
 .desc{
     color: rgb(159, 177, 209);
-    font-size: 15px;
+    font-size: 17px;
 }
 .git{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
     background: linear-gradient(to left top, #35d1af, #00bfca, #00a8e4, #008cf0, #0067e1, #2f52c5, #3b3ea9, #3e2a8d, #1b2a72, #052454, #091c35, #0d1117);
     border-radius: 50px;
     height: 100px;
     width: 100%;
     position: relative;
+    border: #1b2a72 solid 1px;
 }
 .gitt{
     margin: 0;
-    position: absolute;
+    position: relative;
+    left: 701px;
     font-size: 30px;
-    top: calc(50% - 15px);
+    top: calc(50% - 50px);
+}
+.gi{
+    position: relative;
+    width: 130px;
+    height: 70px;
+    left: 670px;
+    top: calc(50% - 35px);
+}
+.fre{
+    margin-left: auto;
+    margin-right: auto;
+}
+.rev{
+    position: relative;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    border-radius: 20%;
+    border: #052454 solid 1px;
+    background: rgba(41, 55, 75, 0.3)
+}
+.oih{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 200px;
+}
+.autrev{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    left: 40px;
+    bottom: 20px;
+    gap: 20px;
+}
+.revt{
+    position: relative;
+    left: 30px;
+    color: rgb(159, 177, 209);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.revau{
+    color: rgb(195, 208, 229);
+    font-size: 23px; 
+}
+.revic{
+    width: 50px;
+    height: 50px;
+    
 }
