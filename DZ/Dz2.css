@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.f{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-image: url("gameicon.jpg");
+}
+.s{
+    position: relative;
+    height: 350px;
+    width: 50%;
+    top: 350px;
+}
+.c1{
+    background: linear-gradient(315deg, rgb(13, 17, 23), rgb(0, 96, 240), rgb(13, 17, 23));
+}
+.c2{
+    background-color: black;
+}
+.c3{
+    background-color: pink;
+}
+.c4{
+    background-color: aqua;
+}
