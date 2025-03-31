@@ -181,27 +181,31 @@ section{
     top: calc(50% - 35px);
 }
 .fre{
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    padding-left: calc(50% - 46px);
 }
 .rev{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     position: relative;
     display: flex;
     align-items: top;
     justify-content: center;
-    width: 700px;
+    width: 45%;
     height: 400px;
     border-radius: 20%;
     border: #052454 solid 1px;
     background: rgba(41, 55, 75, 0.3)
 }
 .oih{
-    margin-right: auto;
-    margin-left: auto;
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .autrev{
     position: absolute;
@@ -344,4 +348,25 @@ footer{
 }
 .filebtn:focus{
     background-color: #182d48;
+}
+.sides{
+    position: absolute;
+    background-color: rgba(13,17,23,0.9);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.sidI{
+    height: 50px;
+    width: 50px;
 }
