@@ -111,6 +111,7 @@ section{
 }
 .sec{
     display: flex;
+    position: relative;
     align-items: flex-start;
     justify-content: left;
     flex-direction: column;
@@ -181,7 +182,6 @@ section{
     top: calc(50% - 35px);
 }
 .fre{
-    width: 100%;
     padding-left: calc(50% - 46px);
 }
 .rev{
