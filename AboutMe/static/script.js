@@ -1,11 +1,11 @@
 
 let i = 1;
 const rev = document.querySelector(".oih")
-    rev.innerHTML = `
-            <button class="sides left"><img class="sidI" src="static/lefts.png" alt=""></button>
-            <button class="sides right" ><img class="sidI" src="static/rights.png" alt=""></button>`
-    const btn = document.querySelector(".right")
-    const btn2 = document.querySelector(".left")
+rev.innerHTML = `
+        <button class="sides left"><img class="sidI" src="static/lefts.png" alt=""></button>
+        <button class="sides right" ><img class="sidI" src="static/rights.png" alt=""></button>`
+const btn = document.querySelector(".right")
+const btn2 = document.querySelector(".left")
 
 async function initData(params) {
     const response = await fetch("/data")
